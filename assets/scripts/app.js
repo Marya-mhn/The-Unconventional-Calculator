@@ -47,6 +47,7 @@ function calculateResult(calculationType) {
   createAndWriteOutput(mathOPerator, initialResult, enteredNumber);
   writeToLog(calculationType, initialResult, enteredNumber, currentResult);
 }
+
 function add() {
   calculateResult("ADD");
 }
